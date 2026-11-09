@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+build/
+next-env.d.ts.bak
+
+# production output
+dist/
+coverage/
+*.tsbuildinfo
+
+# environment files
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+
+# netlify
+.netlify/
+
+# logs and OS files
+*.log
+npm-debug.log*
+.DS_Store
+
+# test output
+test-results/
+playwright-report/
+
+# supabase CLI local state
+supabase/.branches/
+supabase/.temp/
+
+# local LOCKIN data
+.lockin-data/
